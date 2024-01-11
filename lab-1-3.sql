@@ -2,8 +2,8 @@
 
 SELECT year, name, wins, losses 
 FROM teams 
-ORDER BY losses 
-DESC LIMIT 3;
+ORDER BY losses DESC 
+LIMIT 3;
 
 -- Expected result:
 --
