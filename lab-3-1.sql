@@ -1,5 +1,4 @@
 -- How many teams played in the league in each year?
-
 SELECT year, COUNT(*)
 FROM teams
 GROUP BY year

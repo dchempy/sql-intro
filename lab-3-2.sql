@@ -2,7 +2,7 @@
 
 SELECT name, ROUND(AVG(wins),0)
 FROM teams
-WHERE year >= 2000
+WHERE year > 2000
 GROUP BY name
 ORDER BY name;
 
